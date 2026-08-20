@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Testing 123</title>
+  </head>
+  <body>
+    <div class="page">
+      <div hidden id="main-page">
+        <p style="font-size : xx-large">iOS Shortcuts Test</p>
+        <p>Warning: This will overwrite your clipboard</p>
+        <a href="https://github.com/cautionarytale09/ios-shortcuts-webapp-result-test" target="_blank">Github repo and iOS shortcut download</a>
+        <br>
+        <br>
+        
+        <button onclick="result_with_prompt('test-1')" class="button">Result "test-1"</button>
+        <br>
+        <br>
+        <button onclick="result_with_prompt('test-2')" class="button">Result "test-2"</button>
+        <br>
+        <br>
+        <button onclick="result_with_prompt('test-3')" class="button">Result "test-3"</button>
+        <br>
+        <br>
+        <button onclick="result_with_prompt('test-4')" class="button">Result "test-4"</button>
+      </div>
+
+      <div hidden id="prompt-done">
+        <p style="font-size : xx-large">It is now safe to click Done.</p>
+      </div>
+
+      <div id="view"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

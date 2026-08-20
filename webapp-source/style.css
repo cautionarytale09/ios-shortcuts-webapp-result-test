@@ -1,0 +1,35 @@
+html, body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color : #004d99;
+  height: 100%;
+}
+
+.page {
+  margin: auto;
+  text-align: center;
+  justify-content : center;
+  position: fixed;
+  inset: 15px;
+  border-radius : 50px;
+  background-color : #99ccff;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size : x-large;
+  width: fit-content;
+  height: fit-content;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background : #402060;
+}
